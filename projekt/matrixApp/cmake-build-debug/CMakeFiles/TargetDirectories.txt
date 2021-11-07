@@ -1,0 +1,3 @@
+C:/Users/PC/Desktop/New folder (4)/JiPP2/projekt/matrixApp/cmake-build-debug/CMakeFiles/matrixApp.dir
+C:/Users/PC/Desktop/New folder (4)/JiPP2/projekt/matrixApp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC/Desktop/New folder (4)/JiPP2/projekt/matrixApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

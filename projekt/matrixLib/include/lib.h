@@ -1,0 +1,31 @@
+#include <iostream>
+
+int **fillMatrix(int **matrix, int rows, int columns);
+double **fillMatrix(double **matrix, int rows, int columns);
+int **dynamicAllocation1(int rows, int columns);
+double **dynamicAllocation2(int rows, int columns);
+int **addMatrix (int **matrix1, int **matrix2, int rows, int columns);
+double **addMatrix (double **matrix1, double **matrix2, int rows, int columns);
+int **subtractMatrix (int **matrix1, int **matrix2, int rows, int columns);
+double **subtractMatrix (double **matrix1, double **matrix2, int rows, int columns);
+int **multiplyMatrix(int **matrix1, int** matrix2, int rows, int columns1, int columns2);
+double **multiplyMatrix(double **matrix1, double** matrix2, int rows, int columns1, int columns2);
+int **multiplyByScalar(int **matrix, int rows, int columns, int skalar);
+double **multiplyByScalar(double **matrix, int rows, int columns, double skalar);
+int **transpozeMatrix(int **matrix, int rows, int columns);
+double **transpozeMatrix(double **matrix, int rows, int columns);
+int **powerMatrix(int **matrix, int rows, int columns, unsigned potega);
+double **powerMatrix(double **matrix, int rows, int columns, unsigned potega);
+int determinantMatrix(int **matrix, int rows, int columns);
+double determinantMatrix(double **matrix, int rows, int columns);
+bool matrixIsDiagonal(int **matrix, int rows, int columns);
+bool matrixIsDiagonal(double **matrix, int rows, int columns);
+int **swap(int **matrix, int &rows1, int &columns1, int &rows2, int &columns2);
+double **swap(double **matrix, int &rows1, int &columns1, int &rows2, int &columns2);
+int *sortRow(int *matrix, int columns);
+double *sortRow(double *matrix, int columns);
+int **sortRowsInMatrix(int **matrix, int rows, int columns);
+double **sortRowsInMatrix(double **matrix, int rows, int columns);
+void printMatrix(int **matrix, int rows, int columns);
+void printMatrix(double **matrix, int rows, int columns);
+void help();
